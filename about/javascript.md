@@ -18,5 +18,7 @@
   * != - Not equal to (8 != 5)
 4. Statements and Declarations
   *  Var - Makes a variable (or identifier) which can be set to rules. Can be started with letters, $, or (_). (i.e. var hiHello = x)
+5. Errors
+  * SyntaxError - An error that occures when code is invalid and the system does not know what to do with it. 
   
   
