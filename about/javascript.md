@@ -36,18 +36,20 @@ console.log x.length;
   ````var arr = ["Item one", 2, true]````
   * Array.Push - the .push at the end of the array will take a new element to add into the array and add it to the end. It will also provide a new total length of the given array. 
  ````
-var fruit = ["banana", "orange"];
-var fruitTotal = fruit.push ("strawberry")
-console.log(fruit) // banana, orange, strawberry
+ var fruit = ["banana", "orange"];
+ var fruitTotal = fruit.push ("strawberry")
+ console.log(fruit) // banana, orange, strawberry
 ````
   * Array.pop - the .pop will remove the last item within the array, from the array. 
 ````
-var arr = [1, 2, 3]
-var popped = arr.pop 
-console.log(popped)
+ var arr = [1, 2, 3]
+ var popped = arr.pop 
+ console.log(popped)
 // 1, 2
 ````
   *  Function - This is a way to save bits of code and assign values within the perameters given. This can help us to build working systems that complete certain tasks, depending on what objects the task is given. 
 
-````function subtraction (a,b){a-b;}subtraction(x,y);````
+````
+function subtraction (a,b){a-b;}subtraction(x,y);
+````
   
