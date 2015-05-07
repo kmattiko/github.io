@@ -8,6 +8,13 @@
   * Undefined - This can be when you don't pass your formula a value to work out, JS is waiting for some sort of definition. (i.e. 8 + x = i)
   * Typeof - This function will check a literal type and identify how it is branded, as in boolean, number, string...ect. (i.e. typeof Infinity == number)
   * Binary Operators- these are systems that look for a left and right side to be added, as in to compare two different things (i.e. 1 / 2 != 2 / 1 //true)
+  * Length - the .length property is one in which counts the number or characters or items (especially when it comes to arrays) in a group. It can count the number of items and return it back to the user or it can assign a number to the array. If a bigger number is given the number of items in the array then it doesn't increase the number of items. 
+ ````
+var x = y;
+y = new array [1, 2, 3];
+console.log x.length;
+// 3
+````
 2. Arithmetic Operators
   * + - Adds numbers together to get value (3 + 5 = 8)
   * - - Subtracts one number from another and produces a remainder (8 - 5 = 3)
@@ -25,6 +32,21 @@
 4. Statements and Declarations
   *  Var - Makes a variable (or identifier) which can be set to rules. Can be started with letters, $, or (_). (i.e. var hiHello = x)
   *  Return - Looks to complete the given task and give results back to the function. It completes the circle in a way. (i.e. return a + b;)
+  *  Array - this is a group of items that are shown in a list type set. It can be comprised of any kind of items. Items can be called down by number, each item is given an integer starting with 0 and going up. It it represented with square brackets. 
+  ````var arr = ["Item one", 2, true]````
+  * Array.Push - the .push at the end of the array will take a new element to add into the array and add it to the end. It will also provide a new total length of the given array. 
+ ````
+var fruit = ["banana", "orange"];
+var fruitTotal = fruit.push ("strawberry")
+console.log(fruit) // banana, orange, strawberry
+````
+  * Array.pop - the .pop will remove the last item within the array, from the array. 
+````
+var arr = [1, 2, 3]
+var popped = arr.pop 
+console.log(popped)
+// 1, 2
+````
   *  Function - This is a way to save bits of code and assign values within the perameters given. This can help us to build working systems that complete certain tasks, depending on what objects the task is given. 
 
 ````function subtraction (a,b){a-b;}subtraction(x,y);````
