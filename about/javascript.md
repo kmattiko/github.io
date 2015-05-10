@@ -48,8 +48,50 @@ console.log x.length;
 // 1, 2
 ````
   *  Function - This is a way to save bits of code and assign values within the perameters given. This can help us to build working systems that complete certain tasks, depending on what objects the task is given. 
-
 ````
 function subtraction (a,b){a-b;}subtraction(x,y);
 ````
-  
+  * Block Statement - A block statement is contained wihin a set of curly brackets like so {}. It groups a set of statements or items together. Often an "if" "while, do" or "for" loop will be contained within the block statement. 
+````
+var i = 1 { i = 2 }// logs i as 2
+````
+  * if/else - This is an oporator that can be used within a block. It looks for true or false conditions and applies the correct action. It might read something like "'if' user inputs 'hello' return 'hi'('hello' is true), 'else' user inputs something else return 'I don't know'('hello' is not true)". It would looks something like this. else-if can also be used when more than two arguments are present, as a third or more option. It would be placed between if and else. 
+````
+if(userInput = "hello" {
+return "hello";
+}
+else {
+return "I don't know"
+};
+````
+  * switch - This is an oporator that can compare several different arguments at the same time to determine which one is true in whichever case given. Within the swtich statement several 'cases' are made, the case which is true will be returned. This can be especially useful when comparing many items, instead of having to use if/else statements. When writing a switch statment it is important to use a 'break' inbetween each case in order for them to separate correctly. It might read something like "user is prompted what the weather is, in the 'case' they state sunny return 'bring sunscreen', in the case they state it is rainy return 'bring an unbrella'"
+````
+switch(expression) {
+ case x:
+ return "hello"
+ [break;]
+ case y:
+ return "bye"
+ [break;]
+}
+````
+  * try/catch - 
+  * throw - 
+  *  For - Is a type of function that creates a loop with three specific pieces of information contained within the loop. It contains an initialization (like the start of a function), a condition (telling the system how the function should be run), and a final expression(this tells the system how the function should be counted/expressed). 
+````for(var x = 0, x < 10, x++);````
+  * While - This allows the system to complete an action as long as (or while) the statement is true. This is helpful to give the system specific times to start and stop. While statements need to have a true and false, one must be placed within the loop and one must be outside. In the example below x is set to be true which allows the while loop to say "hello" until JS reads the line that makes x false, which will stop the while loop from running. 
+````
+var x = true;
+while(x){
+	console.log("Hello!");
+	x = false;
+}
+````
+  * Do/While - This is a type of loop that continues to run while the statement is true and then stops when it recieves a false. It uses a statement to run the evaluation and a condition to determine how to run the evaluation. It is important to create perameters so that it does not continually recieve true or it will not know when to stop and can create an infinate loop, causing your system to have issues. 
+````
+var x = 0;
+do {
+x -= 1;
+console log(x);
+} while (x > 10);
+````
