@@ -23,6 +23,11 @@ console.log x.length;
   * % - Gives the number left over after division has occured (15 % 8 = 7)
   * ++ - this is the increment operator which will continue adding going up by one until told to stop (var i = 2; y = x++)
   * && - this represents and, it can be used to check to see if two things are both true seprartly and together ("I like purple" && "I like coffee" // true)
+  * Unary Negation - this operator will take something that is postive and make it negaitive or vice versa. An example is 
+````
+  var x = 1;
+  y = -x // returns -1 when y is called.
+````
 3. Comparison Operators
   * >= - Greater or equal (8 >= 5)
   * < - Less than (5 < 8)
@@ -31,6 +36,8 @@ console.log x.length;
   * == checks if something "is equal to" something else as in... "ice cream" == "ice cream"//true , infinity == -infinity//false
 4. Statements and Declarations
   *  Var - Makes a variable (or identifier) which can be set to rules. Can be started with letters, $, or (_). (i.e. var hiHello = x)
+  *  For - Is a type of function that creates a loop with three specific pieces of information contained within the loop. It contains an initialization (like the start of a function), a condition (telling the system how the function should be run), and a final expression(this tells the system how the function should be counted/expressed). 
+````for(var x = 0, x < 10, x++);````
   *  Return - Looks to complete the given task and give results back to the function. It completes the circle in a way. (i.e. return a + b;)
   *  Array - this is a group of items that are shown in a list type set. It can be comprised of any kind of items. Items can be called down by number, each item is given an integer starting with 0 and going up. It it represented with square brackets. 
   ````var arr = ["Item one", 2, true]````
