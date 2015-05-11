@@ -1,5 +1,5 @@
 ---
-permalink: index.html
+kmattiko.github.io
 ---
 
 # This is a Heading
