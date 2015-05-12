@@ -59,6 +59,7 @@ var x = y;
 y = new array [1, 2, 3];
 console.log x.length;
 // 3
+<<<<<<< HEAD
 ```
 **+**
 
@@ -162,6 +163,43 @@ console.log(fruit) // banana, orange, strawberry
 
 The .pop will remove the last item within the array, from the array. 
 ```
+=======
+````
+2. Arithmetic Operators
+  * + - Adds numbers together to get value (3 + 5 = 8)
+  * - - Subtracts one number from another and produces a remainder (8 - 5 = 3)
+  * * - Multiplies, which is to take the value of one number and expand it the number of times of the other number (3 * 5 = 15)
+  * / - Divides, which separates one number by another (15 / 3 = 5)
+  * % - Gives the number left over after division has occured (15 % 8 = 7)
+  * ++ - this is the increment operator which will continue adding going up by one until told to stop (var i = 2; y = x++)
+  * && - this represents and, it can be used to check to see if two things are both true seprartly and together ("I like purple" && "I like coffee" // true)
+  * Unary Negation - this operator will take something that is postive and make it negaitive or vice versa. An example is 
+````
+  var x = 1;
+  y = -x // returns -1 when y is called.
+````
+3. Comparison Operators
+  * >= - Greater or equal (8 >= 5)
+  * < - Less than (5 < 8)
+  * != - Not equal to (8 != 5)
+  * = means "is assigned" as in... This var x = ("is assigned") y
+  * == checks if something "is equal to" something else as in... "ice cream" == "ice cream"//true , infinity == -infinity//false
+4. Statements and Declarations
+  *  Var - Makes a variable (or identifier) which can be set to rules. Can be started with letters, $, or (_). (i.e. var hiHello = x)
+  *  For - Is a type of function that creates a loop with three specific pieces of information contained within the loop. It contains an initialization (like the start of a function), a condition (telling the system how the function should be run), and a final expression(this tells the system how the function should be counted/expressed). 
+````for(var x = 0, x < 10, x++);````
+  *  Return - Looks to complete the given task and give results back to the function. It completes the circle in a way. (i.e. return a + b;)
+  *  Array - this is a group of items that are shown in a list type set. It can be comprised of any kind of items. Items can be called down by number, each item is given an integer starting with 0 and going up. It it represented with square brackets. 
+  ````var arr = ["Item one", 2, true]````
+  * Array.Push - the .push at the end of the array will take a new element to add into the array and add it to the end. It will also provide a new total length of the given array. 
+ ````
+ var fruit = ["banana", "orange"];
+ var fruitTotal = fruit.push ("strawberry")
+ console.log(fruit) // banana, orange, strawberry
+````
+  * Array.pop - the .pop will remove the last item within the array, from the array. 
+````
+>>>>>>> master
  var arr = [1, 2, 3]
  var popped = arr.pop 
  console.log(popped)
