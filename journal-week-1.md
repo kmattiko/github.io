@@ -1,1 +1,38 @@
-Journal to go here...
+
+***FIRST WEEK AT THE IRON YARD***
+
+**Learning the terminal**
+
+One of the more impressive and exciting things I have started to pick up is working on the command line in the terminal of the computer. Doing this helps me to feel in control of my actions and to get closer with how my computer operates on a basic level. For me this has felt somewhat similar to why I like my stick-shift car, I get to choose how actions are executed rather than it coming from 'the man behind the curtain'. It makes me feel like we are making real progress when I am able to take actions that would have seemed pretty insane just 10 days ago. 
+
+However, the terminal can be tricky. I have already made many mistakes, which have been more difficult to fix because of my unfamiliarity with the different command names. I have gotten stuck in the wrong branch or outside of a repo several times and I had no clue how to get back to a normal place. By working through these issues I've probably learned the most though…so it's really a good thing. I am not particularly fast right now but I am confident that will improve. Overall, the terminal is pretty awesome and I hope employers find it as intriguing of a skill as I have. 
+
+Just to journal out some of the commands I've learned...
+```
+Git status, Git add, Git Commit is used everyday and each time we change something
+The differences between Git Push and Git Pull are pretty important
+PWD, CD, LS, MV are some of the commands that will help you find and move your directories and document around
+Node is helpful for using as a RPLE or to have a 'jam session' with JS
+```
+**Learning JavaScript Basics**
+
+JavaScript so far, is a complex yet dynamic language full of quirks. Just putting the basic actions together can get difficult fast but has almost instant gratifying results. Learning JavaScript feels like it will be the real challenge. It seems as though each moment we understand one small part of how the language works, 1000 new concepts start to emerge. It feels difficult to keep on top of what everything does, how it's read, and how we will ever get anything working. 
+
+Something good I can say for JavaScript is that there seems to be a very inclusive community surrounding it. I have come across more resources than I even know what do with. Some resources are more helpful than others though. It's hard right now to put everything in some sort of context. I feel like I'll read definitions and see examples but still struggle as to what or why it is that way. I want to see it from a larger and smaller scope at the same time, if that makes any good sense at all. 
+
+I am determined to love JavaScript. I am optimistic that one day will come that most of it clicks and I am ready for some more finite details. 
+
+**Github Introduction**
+
+Github and Git commands are at the center of what we do when working with code. A large portion of the first week was dedicated to understanding the open-source code community and learning how to pull, push, branch, and commit our way around. The terminology can be daunting at first but with practice, especially through the terminal mentioned above, it has gotten easier. 
+
+I’m pretty fascinated by the whole "open-source" community idea. It's a pretty fantastic system where ideas and code can be seen and worked on by others but without hurting the original coders work. Also, I love that there are polite ways to send improvements and suggestions. It's good to see that the code community really wants to work together to make things stronger and makes this goal a priority. 
+
+**Cohort Styles**
+
+Working in a team has been a satisfying experience. I feel very privileged to be among such excellent and interesting individuals. It is nice to know that we are all in this boat together. I have felt a genuine team spirit and a willingness to help each other from day one. It's great to know that when I feel overwhelmed by pretty much every new idea, my peers seem to feel the same way. It's nice not to be alone in nubie world.
+
+**New Career Path**
+
+Something I hadn't realized when joining Iron Yard was our weekly career development sessions each Friday. Having some sort of visitor or speaker is great in getting to know the community around us. I am impressed with the encouragement we have received all around to go to Meet-ups, get involved, and connect to those in the job. Dave especially has been helpful in giving a realistic look into what it takes to make this type of career change and some of what can be expected in the future. I look forward to getting the chance to be a part of the Front-End Conference too. It's because of opportunities like this that we get a real taste for what we've signed up for. It excellent to know that The Iron Yard saying it was going to focus on the full front-end experience wasn't just giving lip service. I'm so excited to see what comes next!
+
