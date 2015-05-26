@@ -49,3 +49,14 @@ The start of text can be followed by many variations including align, decoration
 **Line**
 
 Line-height refers to the height of line boxes within the element. See [MDN Reference](herehttps://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+
+**Box Sizing**
+
+This will use CSS to detemine width and height of item on a page, assuming there is more than one element. Content box is an example and will place the box around the element but will keep margin, padding, and border on the outside of the box, not changing the size. Padding box is not currently supported by Intenet Exploree, a border box might be a good altenative when working with that browser. 
+
+**Margin**
+
+In general this provides space around the element. It can be written in shorthand adding all 4 sides of the margin together in order of top, right, bottom, left. 
+
+**Padding**
+This comes betwen the element and the border, both within the margin. 
