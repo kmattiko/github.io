@@ -37,3 +37,15 @@ This will make an element stay where it is placed on the page, even if the user 
 **Float**
 
 This is used to fit two elements together and get the text of one to wrap around the shape of the other. 
+
+**Font**
+
+Used to change the font style, size, and weight. It can also change the family in which the fonts exist such as Sans-Serif vs Sans. It can be applied to :first letter or :first line to change the font just for a specific part of the document/paragraph. 
+
+**Text**
+
+The start of text can be followed by many variations including align, decoration, orientation, overflow, and transform (to name a few). This moves the actual words around and gives them certian decorations or commands on where the words should go. 
+
+**Line**
+
+Line-height refers to the height of line boxes within the element. See [MDN Reference](herehttps://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
