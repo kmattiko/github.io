@@ -12,13 +12,19 @@ Stands for Description List. This can be used to store key-value pairs (such as 
 
 `<form>`
 
+Form will take user input and send it to the server. You are able to use the :valid and :invalid CSS pseudo-classes with forms. It is also possible to add AutoCapitialize and AutoFill to this element, helping the user have more consistant inputs. It's children can include `<label>` `<input>` `<fieldset>`.
+
 `<fieldset>`
+
+This can group different `<label>` elements together. It's attributes include disabled, form, and name. 
 
 `<legend>`
 
+A child of `<fieldset>` 
+
 `<input>`
 
-Takes user data in a variety of ways. Some ways include...
+Takes user data in a variety of ways. Some ways include date, color, password, and email, just to name a few. Values can be AutoCorrected and formatted to help the user input relevent information. 
 
 `<label>`
 
