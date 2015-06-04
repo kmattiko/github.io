@@ -128,6 +128,7 @@ Everything else?
 
 .personal {
   display: inline-block;
+  padding-left: 20px;
 }
 .menu {
   display: inline-block;
