@@ -119,8 +119,20 @@ Everything else?
 
 
 
-
-
+.top {
+  background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
+  background-size: cover;
+  padding-bottom: 350px;
+  color: pink;
+}
+.menu {
+  float: right;
+}
+.rotator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
