@@ -126,14 +126,33 @@ Everything else?
   color: pink;
 }
 
-ul {
+.personal {
+  display: inline-block;
+}
+.menu {
+  display: inline-block;
+  width: 40%;
+  margin-left: 40%;
+}
+
+li {
   float: right;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
 }
 
 .rotator {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+padding: 2% 5% 2% 5%;
+border: 2px solid darkgrey;
+margin-left: 28%;
+background-color: teal;
+color: darkgrey;
+width: 35%;
+}
+
+h3 {
+  font-size: 40px;
 }
 
 
