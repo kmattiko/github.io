@@ -146,6 +146,7 @@ li {
 .rotator {
 padding: 2% 5% 2% 5%;
 border: 2px solid darkgrey;
+font-family: fantasy;
 margin-left: 28%;
 background-color: teal;
 color: darkgrey;
@@ -156,11 +157,55 @@ text-align: center;
 h3 {
   font-size: 40px;
 }
+h2 {
+  display: inline-block;
+  margin-left: 35%;
+  padding: .2em;
+  border: .1em solid lightgrey;
+  color: white;
+  font-family: fantasy;
+  background-color: darkgrey;
+
+}
+.form {
+  background-image:url("http://4.bp.blogspot.com/--0mk4sbsv6M/TrQiLTXcY2I/AAAAAAAAAqI/6r9jTz5evQA/s1600/stone_gravel-lok_close.jpg");
+  padding-bottom: 15em;
+  color: lightgrey;
+}
+
+.columns {
+  display: inline-block;
+  color: white;
+  font-size: 2.3em;
+}
+
+.column-1 {
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding-left: 1em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
 
 
+.column-1::first-line {
+  color: pink;
+  font-size: 2em;
+}
+.column-2 {
+  float: right;
+  width: 28%;
+  display: inline-block;
+  margin-right: 3em;
+  padding: 1em 1em 1em 1em;
+}
 
-
-
+button {
+  background-color: darkgrey;
+  color: pink;
+  margin-top: .2em;
+}
 
 
 
