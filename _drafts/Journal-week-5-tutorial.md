@@ -1,51 +1,39 @@
-How to start out a new project (outline- rough)
-
-START NEW PROJECT
+**How to start with a new project.**
  
-Yo h5bp
+- We start out by doing Yo h5bp
 
-Remove shit files
-git add css/ js/ index.html LICENTSE.txt
+- Check to see what files you don't need, that came standard with boilerplate. 
 
-git clean -n      then      git clean -f
+- git add css/ js/ index.html LICENTSE.txt
 
-rm -rf img
+- git clean -n      then      git clean -f
 
-Yo Mocha
+- rm -rf img
 
-cd test
+- Yo Mocha
 
-git ignore bower_components
+- cd test
 
-ls -al (shows all files even the ones with the dot) git ignore things I don’t need)
+- git ignore bower_components
 
-git add . (gets all the files staged)
-git push 
+- ls -al (shows all files even the ones with the dot) git ignore things I don’t need)
 
-npm init
+- git add . / git commit/ git push 
 
-bower init
+- npm init
 
-git ignore node_modules (if you have them?)
+- bower init
 
-CLEANING UP
+- git ignore node_modules (if you have them?)
 
-Push changes again
+**CLEANING UP**
 
-Edit package.son files to add Start and Test
-"start": "browser-sync start --server --files='index.html, js/**/* .js,css/**/* .css/'"
+- Push changes again
 
-Test NPM start
+- Edit package.son files to add Start and Test by adding "start": "browser-sync start --server --files='index.html, js/**/* .js,css/**/* .css/'"
 
-Clean out Index.html
+- “test": "browser-sync start --server --files=‘test/spec/**/*.js/‘ —startPath test/index.html”
 
-Add to bower.son file
-"start": "browser-sync start --server --files='index.html, css/, js/‘”
+- Test NPM start
 
-“test": "browser-sync start --server --files=‘test/spec/**/*.js/‘ —startPath test/index.html”
-
-TO SAVE ON
-
-bower install —save jQuery
-
-bower install —save chai/mocha
+- Clean out Index.html
