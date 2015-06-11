@@ -1,0 +1,378 @@
+/*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+PLANNING SESSION
+PLANS
+A similar big image a the top and bottom of the page
+On the tital page, the adj scroll evey three seconds, I would love to make this work
+When the user scrolls down the menu up top updates to what page they are on automatically
+  three little dots appear under the current page
+A mid section with my picture and small paragraph, with a thick strip of background color
+A section that contains my documents.
+  separate this section into tutorial, reflective, and definitions
+    Will needs some kind of 'reveal' to the document title
+  Images are centered with space on the side.
+A section at the bottom for my contact information and a form that can be submitted to me
+  I'd love to have it actually save somewhere useful
+The menu stays at the top the whole time, no matter where the user goes
+
+NOT FOR NOW
+I don't intend to have the color option on the right side of the page
+There is an odd reveal when the second large image comes into view, I probably won't worry about that
+Everything else?
+
+*/
+
+
+
+.top {
+  background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
+  background-size: cover;
+  padding-bottom: 350px;
+  color: pink;
+}
+
+.personal {
+  display: inline-block;
+  padding-left: 20px;
+}
+.menu {
+  display: inline-block;
+  width: 40%;
+  margin-left: 40%;
+}
+
+li {
+  float: right;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+}
+
+.rotator {
+padding: 2% 5% 2% 5%;
+border: 2px solid darkgrey;
+font-family: fantasy;
+margin-left: 28%;
+background-color: teal;
+color: darkgrey;
+width: 35%;
+text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+}
+h2 {
+  display: inline-block;
+  margin-left: 35%;
+  padding: .2em;
+  border: .1em solid lightgrey;
+  color: white;
+  font-family: fantasy;
+  background-color: darkgrey;
+
+}
+.form {
+  background-image:url("http://4.bp.blogspot.com/--0mk4sbsv6M/TrQiLTXcY2I/AAAAAAAAAqI/6r9jTz5evQA/s1600/stone_gravel-lok_close.jpg");
+  padding-bottom: 15em;
+  color: lightgrey;
+}
+
+.columns {
+  display: inline-block;
+  color: white;
+  font-size: 2.3em;
+}
+
+.column-1 {
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding-left: 1em;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+.column-1::first-line {
+  color: pink;
+  font-size: 2em;
+}
+.column-2 {
+  float: right;
+  width: 28%;
+  display: inline-block;
+  margin-right: 3em;
+  padding: 1em 1em 1em 1em;
+}
+
+button {
+  background-color: darkgrey;
+  color: pink;
+  margin-top: .2em;
+}
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
