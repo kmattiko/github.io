@@ -1,4 +1,4 @@
-Everything seems to get harder as it gets easier. 
+**Everything seems to get harder as it gets easier.**
 
 True to form, most of the good progress I've been making lately has made me more overwhelmed. 
 
@@ -32,4 +32,4 @@ Good news is that I've gotten much better at this. I will touch something for a 
 
 I also find that part of this for me is not looking for that "detailed" perfect answer. I may just have to understand it partially and move on for the sake of the entire project. I've been learning more by working this way. I think this is a skill that will continue to benifit me long after this bootcamp is over. 
   
-***In conclusion, getting lots of new information every day is hard...and exhausting. I am qucik to feel overwhelmed if I am not careful to monitor my own habits. Simple tactics can help it feel less overwhelming. ***
+In conclusion, getting lots of new information every day is hard...and exhausting. I am qucik to feel overwhelmed if I am not careful to monitor my own habits. Simple tactics can help it feel less overwhelming. 
