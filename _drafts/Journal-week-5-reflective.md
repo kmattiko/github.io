@@ -9,7 +9,7 @@ At the Iron Yard I have been personally challenged with this learning style. I w
 I have had to find way to adapt to onslaught of information while still keeping my own detailed mind confortable. Here are some of the things I've tried, with varied success
 
 - Taking scupious notes
-- 
+
 When information is coming rapid fire, I can hardly even type fast enough, much less understand what we are typing. Later, I have a hard time remembering what we were doing exactly. I found that by quikly, with varied accuracy, I try to jot down what we are covering. Soemtimes, when I'm confused, I just take it down word-for-word just as a reference to have later.
 
 Having a refence in my notes makes me feel better. Although I might not understand or remember what we are going over, I am able to save it somwhere other than my brain. Also, somehow processing the words through my mind and into my fingers helps me retain more. 
