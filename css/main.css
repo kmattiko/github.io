@@ -154,6 +154,10 @@ width: 35%;
 text-align: center;
 }
 
+.journals ul {
+  background-color: darkgrey;
+}
+
 h3 {
   font-size: 40px;
 }
