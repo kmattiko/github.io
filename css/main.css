@@ -116,14 +116,34 @@ There is an odd reveal when the second large image comes into view, I probably w
 Everything else?
 
 */
-
-
-
-.top {
+.pageone {
   background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
   background-size: cover;
   padding-bottom: 350px;
+}
+
+.top {
   color: pink;
+  background-color: #FFFFCC;
+  height: 15%;
+  width: 100%;
+}
+
+.top h1 {
+  float: left;
+  border: 2px solid black;
+  width: 25%
+}
+
+.top h2 {
+  border: 2px solid black;
+  width: 20%;
+}
+
+.top ul {
+  float: right;
+  border: 2px solid black;
+  width: 50%;
 }
 
 .personal {
