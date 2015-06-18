@@ -126,8 +126,7 @@ Everything else?
   color: pink;
 }
 
-.personal {
-  display: inline-block;
+.personal {;
   padding-left: 20px;
 }
 .menu {
