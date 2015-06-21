@@ -122,18 +122,19 @@ Everything else?
 .top {
   background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
   background-size: cover;
-  padding-bottom: 350px;
+  padding-bottom: 60em;
   color: pink;
+}
+
+/*.top h1 {
+  width: 20%;
+  margin: 0;
 }
 
 .personal {;
   padding-left: 20px;
 }
-.menu {
-  display: inline-block;
-  width: 40%;
-  margin-left: 40%;
-}
+
 
 li {
   float: right;
@@ -209,7 +210,7 @@ button {
   color: pink;
   margin-top: .2em;
 }
-
+*/
 
 
 
