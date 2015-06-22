@@ -1,0 +1,22 @@
+{
+  "name": "kmattiko.github.io",
+  "version": "0.0.0",
+  "description": "--- permalink: index.html ---",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='index.html,js/**/* .js,css/**/* .css/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmattiko/kmattiko.github.io.git"
+  },
+  "author": "",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/kmattiko/kmattiko.github.io/issues"
+  },
+  "homepage": "https://github.com/kmattiko/kmattiko.github.io",
+  "dependencies": {
+    "skeleton": "^0.1.2"
+  }
+}
