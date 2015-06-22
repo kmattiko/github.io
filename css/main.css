@@ -162,10 +162,10 @@ Everything else?
   background-color: darkgrey;
 }
 
-h3 {
+.columns h3 {
   font-size: 40px;
 }
-h2 {
+.columns h2 {
   display: inline-block;
   margin-left: 35%;
   padding: .2em;
