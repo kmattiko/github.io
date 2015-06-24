@@ -159,7 +159,7 @@ Everything else?
 }
 
 .journals ul {
-  background-color: darkgrey;
+  background-color: grey;
 }
 
 .columns h3 {
@@ -167,24 +167,26 @@ Everything else?
 }
 .columns h2 {
   display: inline-block;
-  margin-left: 35%;
+  margin-left: 24%;
   padding: .2em;
-  border: .1em solid lightgrey;
-  color: white;
+  padding-left: 4em;
+  padding-right: 4em;
+  border: .1em solid darkgrey;
+  color: lightgrey;
   font-family: serif;
-  background-color: darkgrey;
+  background-image: url('http://www.zfabric.com/_assets/images/Solids%20/knits/largeimg/knitslargeimg_ks01teal.jpg');
 }
 
 .form {
-  background-color: #C5C9DB;
-  padding-bottom: 15em;
+  background-color:  #A0789F;
+  padding-bottom: 5em;
   color: lightgrey;
 }
 
 .columns {
   display: inline-block;
   color: white;
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 .column-1 {
@@ -197,15 +199,15 @@ Everything else?
 }
 
 .column-1::first-line {
-  color: pink;
-  font-size: 2em;
+  color: #F8DF80;
+  font-size: 1.6em;
 }
 .column-2 {
   float: right;
-  width: 28%;
+  width: 30%;
   display: inline-block;
-  margin-right: 3em;
-  padding: 1em 1em 1em 1em;
+  margin-right: 6em;
+  padding: 3em 1em 2em 1em;
 }
 
 button {
