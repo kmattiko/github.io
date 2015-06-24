@@ -167,7 +167,7 @@ Everything else?
 }
 .columns h2 {
   display: inline-block;
-  margin-left: 20%;
+  margin-left: 24%;
   padding: .2em;
   padding-left: 4em;
   padding-right: 4em;
@@ -179,14 +179,14 @@ Everything else?
 
 .form {
   background-color:  #A0789F;
-  padding-bottom: 15em;
+  padding-bottom: 5em;
   color: lightgrey;
 }
 
 .columns {
   display: inline-block;
   color: white;
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 .column-1 {
@@ -200,7 +200,7 @@ Everything else?
 
 .column-1::first-line {
   color: #F8DF80;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 .column-2 {
   float: right;
