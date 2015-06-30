@@ -1,0 +1,3 @@
+ForEach is a Lodash meathod which allows us some simple ways to groom a group for certain pieces of information. 
+
+Here is an example....
