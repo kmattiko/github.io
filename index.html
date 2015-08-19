@@ -17,41 +17,37 @@
 <body>
 
   <div class="container"> <!--whole document-->
-    <div class="first-page">
-      <div class="top">
-        <div class="main-name">
+    <header class="topopage"> <!--start of header-->
           <h1>Kim Mattiko</h1>
-        </div>
-        <div class="sub-title">
-          <h2>Blogging Fun</h2>
-        </div>
+          <h2>Blogista Page</h2>
         <div class="menu">
           <ul>
-            <li>About Me</li>
-            <li>My Works</li>
-            <li>Contact Me</li>
+            <li>
+              <a href="#aboutme">About Me</a>
+            </li>
+            <li>
+              <a href="#journals">My Blogs</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
           </ul>
         </div>
-      </div>
+    </header> <!--end of header-->
 
-      <h3>
-        &nbsp;
-      </h3>
-    </div>
-
-    <div class="aboutme"><!--start about me-->
+    <div id="aboutme"><!--start about me-->
       <h3>I am Kim Mattiko</h3>
       <p>A little bit about me...</p>
     </div><!--end about me-->
 
-    <div class=journals><!--start journals-->
+    <div id=journals><!--start journals-->
       <ul>
         {% for post in site.posts %}
         <li> <a href="{{post.url}}">{{post.title}}</a> {% endfor %}
       </ul>
     </div><!--end journals-->
 
-    <div class="contact"><!--start contact-->
+    <div id="contact"><!--start contact-->
         <h2>Keep in Touch</h2>
         <div class="myinfo"><!--start my info-->
           <address>
