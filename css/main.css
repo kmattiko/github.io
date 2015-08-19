@@ -122,7 +122,7 @@ Everything else?
 #topopage {
   background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
   background-size: cover;
-  padding-bottom: 50em;
+  padding-bottom: 47em;
 }
 #heading {
   border: .2em solid tan;
@@ -133,7 +133,8 @@ Everything else?
 }
 
 #topopage h1 {
-  padding-left: 2em;
+  padding-left: 1em;
+  font-size: 4em;
 }
 
 #topopage h2 {
@@ -141,26 +142,71 @@ Everything else?
   font-size: 2em;
 }
 
-#topopage::first-line {
-  font-size: 2.3em;
+#menu {
+  padding-right: 5em;
 }
 
 #menu li {
-  width: 25%;
   float: right;
   list-syle: none;
   font-size: 1em;
   display: inline-block;
-  padding-top: 1.5%;
-  padding-left: 12%;
+  padding-left: 5em;
+  font-size: 1.3em;
+}
+
+#menu a {
+  text-decoration: none;
 }
 
 #aboutme {
+  display: block;
+  background-color: #A0789F;
+  color: lightgrey;
+  padding-bottom: 8em;
+}
 
+#aboutme h2 {
+  padding-left: 28%;
+  color: darkgrey;
+  font-size: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+#aboutme p {
+  width: 50%;
+  padding-left: 10%;
+  font-size: 1.3em;
+}
+
+#aboutme img {
+  float: right;
+  border-radius: 560px;
+  margin-right: 2em;
+}
+
+#journals {
+  display: block;
+  background-color: darkgrey;
+}
+
+#journals h2 {
+  text-align: center;
+  padding-top: 2em;
 }
 
 #journals ul {
-  background-color: darkgrey;
+
+}
+
+#journals li {
+  list-style: none;
+  border: .3em solid lightgrey;
+  width: 30%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
 }
 
 #contact {

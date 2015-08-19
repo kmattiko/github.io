@@ -40,7 +40,7 @@
 
     <div id="aboutme">  <!--start about me-->
       <h2>I am Kim Mattiko</h2>
-      <a href="http://res.cloudinary.com/kmattiko/image/upload/e_grayscale,r_500/v1439392219/IMG_0700_wp1xl1.jpg"></a>
+      <img src=http://res.cloudinary.com/kmattiko/image/upload/c_scale,e_grayscale,r_500,w_450/v1439392219/IMG_0700_wp1xl1.jpg></img>
       <p>Originally from Ohio, I have a fondness for seasons and nature. I love supporting local breweries, eateries, artists, and hang-outs. I am a creative person who's hobbies include community theatre, painting, and modern dance. At home I am most at
         ease with my three cats, a good book, and a mug of coffee.
         <br> Professionally speaking, I am a goal-oriented person excited about the front-end tech industry. I have a diverse work background with proven skills in leadership, development, and project management. I have gained a wealth of technical knowledge
@@ -49,6 +49,7 @@
 
 
     <div id=journals>  <!--start journals-->
+      <h2>My Blog Posts</h2>
       <ul>
         {% for post in site.posts %}
         <li> <a href="{{post.url}}">{{post.title}}</a> {% endfor %}
