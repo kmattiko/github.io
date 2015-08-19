@@ -119,36 +119,33 @@ Everything else?
 
 
 
-.first-page {
+#topopage {
   background-image: url("http://36.media.tumblr.com/tumblr_m8ee60M2lA1rqeb09o1_1280.jpg");
   background-size: cover;
-  padding-bottom: 40em;
+  padding-bottom: 50em;
 }
-
-.top {
-  padding-bottom: 10em;
+#heading {
   border: .2em solid tan;
   background-color: white;
-  opacity: 0.6;
+  opacity: 0.7;
   color: #A0789F;
+  padding-bottom: 2.5em;
 }
 
-.main-name {
-  padding-left: 1em;
-  width: 30%;
-  float: left;
+#topopage h1 {
+  padding-left: 2em;
+}
+
+#topopage h2 {
+  padding-left: 2em;
   font-size: 2em;
-  font-family: sans;
 }
 
-.sub-title {
-  width: 15%;
-  float: left;
-  padding-left: 1%;
-  padding-top: 4%;
+#topopage::first-line {
+  font-size: 2.3em;
 }
 
-.menu li {
+#menu li {
   width: 25%;
   float: right;
   list-syle: none;
@@ -158,36 +155,27 @@ Everything else?
   padding-left: 12%;
 }
 
-.journals ul {
+#aboutme {
+
+}
+
+#journals ul {
   background-color: darkgrey;
 }
 
-.columns h3 {
-  font-size: 40px;
-}
-.columns h2 {
-  display: inline-block;
-  margin-left: 35%;
-  padding: .2em;
-  border: .1em solid lightgrey;
-  color: white;
-  font-family: serif;
-  background-color: darkgrey;
-}
-
-.contact {
+#contact {
   background-color: #C5C9DB;
   padding-bottom: 15em;
   color: lightgrey;
 }
 
-.contact {
+#myinfo {
   display: inline-block;
   color: white;
   font-size: 2.3em;
 }
 
-.myinfo {
+#myinfo {
   float: left;
   width: 45%;
   display: inline-block;
@@ -196,11 +184,11 @@ Everything else?
   text-shadow: 2px 2px 4px #000000;
 }
 
-.myinfo::first-line {
+#myinfo::first-line {
   color: pink;
   font-size: 2em;
 }
-.form {
+#contactform {
   float: right;
   width: 28%;
   display: inline-block;
@@ -208,7 +196,7 @@ Everything else?
   padding: 1em 1em 1em 1em;
 }
 
-.form button {
+#contactform button {
   background-color: darkgrey;
   margin-top: .2em;
 }

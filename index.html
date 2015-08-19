@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{page.title}}</title>
+  <title>Kim Mattiko Blog</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
@@ -17,66 +17,81 @@
 <body>
 
   <div class="container"> <!--whole document-->
-    <header class="topopage"> <!--start of header-->
-          <h1>Kim Mattiko</h1>
-          <h2>Blogista Page</h2>
-        <div class="menu">
-          <ul>
-            <li>
-              <a href="#aboutme">About Me</a>
-            </li>
-            <li>
-              <a href="#journals">My Blogs</a>
-            </li>
-            <li>
-              <a href="#contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-    </header> <!--end of header-->
+    <div id="topopage"> <!--start of header-->
+      <header id="heading"> <!-- start of heading -->
+      <h1>Kim Mattiko</h1>
+      <h2>Blogista Page</h2>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="#journals">My Blogs</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </header>
+      </div>
+    </div>  <!--end of header-->
 
-    <div id="aboutme"><!--start about me-->
-      <h3>I am Kim Mattiko</h3>
-      <p>A little bit about me...</p>
+
+    <div id="aboutme">  <!--start about me-->
+      <h2>I am Kim Mattiko</h2>
+      <a href="http://res.cloudinary.com/kmattiko/image/upload/e_grayscale,r_500/v1439392219/IMG_0700_wp1xl1.jpg"></a>
+      <p>Originally from Ohio, I have a fondness for seasons and nature. I love supporting local breweries, eateries, artists, and hang-outs. I am a creative person who's hobbies include community theatre, painting, and modern dance. At home I am most at
+        ease with my three cats, a good book, and a mug of coffee.
+        <br> Professionally speaking, I am a goal-oriented person excited about the front-end tech industry. I have a diverse work background with proven skills in leadership, development, and project management. I have gained a wealth of technical knowledge
+        after recently graduating The Iron Yard. I'm eager to find a great company where I can share my skills.</p>
     </div><!--end about me-->
 
-    <div id=journals><!--start journals-->
+
+    <div id=journals>  <!--start journals-->
       <ul>
         {% for post in site.posts %}
         <li> <a href="{{post.url}}">{{post.title}}</a> {% endfor %}
       </ul>
-    </div><!--end journals-->
+    </div>  <!--end journals-->
+
 
     <div id="contact"><!--start contact-->
-        <h2>Keep in Touch</h2>
-        <div class="myinfo"><!--start my info-->
-          <address>
-            Kim Mattiko <br>
-            13210 Solstice Loop <br>
-            Sanford, FL 32771 <br>
-            USA <br>
-          </address>
-            <h4>Follow me on Twitter</h4>
-            <a href="https://twitter.com/SkimMatt">@SkimMatt</a>
-            <h4>Email Me</h4>
-            <a href="yahoo:amberlie@rocketmail.com">amberlie@rocketmail.com</a>
-        </div><!--end my info-->
+      <h2>Keep in Touch</h2>
+      <div id="myinfo"><!--start my info-->
+        <address>
+          Kim Mattiko
+          <br> 13210 Solstice Loop
+          <br> Sanford, FL 32771
+          <br> USA
+          <br>
+        </address>
+        <h4>Follow me on Twitter</h4>
+        <a href="https://twitter.com/SkimMatt">@SkimMatt</a>
+        <h4>Email Me</h4>
+        <a href="yahoo:amberlie@rocketmail.com">amberlie@rocketmail.com</a>
+      </div>
+      <!--end my info-->
 
-        <div class="form"> <!--start form-->
-          <label for="full_name">Full Name</label>
-          <input type="text" name="full_name" placeholder="Sally C. Shores">
-          <label for="email">Email Address</label>
-          <input type="text" name="email" placeholder="Sally@CShores.com">
-          <label for="favorite_animal">Favorite Animal</label>
-          <input type="text" name="email" placeholder="koala">
-          <label for="bio">A Short Note...</label>
-          <input type="text" name="bio">
-          <label for="submit" name="submit">
+      <div id="contactform">
+        <!--start form-->
+        <label for="full_name">Full Name</label>
+        <input type="text" name="full_name" placeholder="Sally C. Shores">
+        <label for="email">Email Address</label>
+        <input type="text" name="email" placeholder="Sally@CShores.com">
+        <label for="favorite_animal">Favorite Animal</label>
+        <input type="text" name="email" placeholder="koala">
+        <label for="bio">A Short Note...</label>
+        <input type="text" name="bio">
+        <label for="submit" name="submit">
           <button>Submit</button>
-        </div><!--end form-->
+      </div>
+      <!--end form-->
 
-      </div><!--end contact-->
-  </div> <!--end whole document div-->
+    </div>
+    <!--end contact-->
+  </div>
+  <!--end whole document div-->
 
 </body>
 
