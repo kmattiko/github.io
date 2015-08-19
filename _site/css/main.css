@@ -175,19 +175,19 @@ Everything else?
   background-color: darkgrey;
 }
 
-.form {
+.contact {
   background-color: #C5C9DB;
   padding-bottom: 15em;
   color: lightgrey;
 }
 
-.columns {
+.contact {
   display: inline-block;
   color: white;
   font-size: 2.3em;
 }
 
-.column-1 {
+.myinfo {
   float: left;
   width: 45%;
   display: inline-block;
@@ -196,11 +196,11 @@ Everything else?
   text-shadow: 2px 2px 4px #000000;
 }
 
-.column-1::first-line {
+.myinfo::first-line {
   color: pink;
   font-size: 2em;
 }
-.column-2 {
+.form {
   float: right;
   width: 28%;
   display: inline-block;
@@ -208,7 +208,7 @@ Everything else?
   padding: 1em 1em 1em 1em;
 }
 
-button {
+.form button {
   background-color: darkgrey;
   margin-top: .2em;
 }

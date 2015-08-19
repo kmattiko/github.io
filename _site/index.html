@@ -1,73 +1,72 @@
+--- title: Blogista ---
+
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Blogista</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{page.title}}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
 
-    <body>
-      <div class="container">
-      <div class="first-page">
-       <div class="top">
+<body>
+
+  <div class="container"> <!--whole document-->
+    <div class="first-page">
+      <div class="top">
         <div class="main-name">
           <h1>Kim Mattiko</h1>
         </div>
         <div class="sub-title">
-         <h2>Blogging Fun</h2>
+          <h2>Blogging Fun</h2>
         </div>
         <div class="menu">
-         <ul>
-          <li>About Me</li>
-          <li>My Works</li>
-          <li>Contact Me</li>
-         </ul>
-     </div>
-   </div>
-        <h3>
-           &nbsp;
-        </h3>
-   </div>
-
-        <div class="rotator">
-         <h3>I am Kim Mattiko</h3>
-         <p>A little bit about me...</p>
+          <ul>
+            <li>About Me</li>
+            <li>My Works</li>
+            <li>Contact Me</li>
+          </ul>
         </div>
+      </div>
 
-  <div class=journals>
-    <ul>
-     
-      <li> <a href="/2015/05/17/journal_WK2.html">Journal_wk2</a>
-     
-      <li> <a href="/2015/05/10/journal_WK1.html">Journal_wk1</a>
-     
-      <li> <a href="/2015/05/08/growth_vs_fixed_mindset.html">Growth_vs_fixed_mindset</a>
-     
-    </ul>
-  </div>
+      <h3>
+        &nbsp;
+      </h3>
+    </div>
 
-     <form class="form">
-      <div class="columns">
+    <div class="aboutme"><!--start about me-->
+      <h3>I am Kim Mattiko</h3>
+      <p>A little bit about me...</p>
+    </div><!--end about me-->
+
+    <div class=journals><!--start journals-->
+      <ul>
+        {% for post in site.posts %}
+        <li> <a href="{{post.url}}">{{post.title}}</a> {% endfor %}
+      </ul>
+    </div><!--end journals-->
+
+    <div class="contact"><!--start contact-->
         <h2>Keep in Touch</h2>
-        <div class="column-1">
+        <div class="myinfo"><!--start my info-->
           <address>
-    Kim Mattiko<br>
-    13210 Solstice Loop<br>
-    Sanford, FL 32771<br>
-    USA<br>
-    Follow me on Twitter<br>
-    <a href="https://twitter.com/SkimMatt">SkimMatt</a><br>
-    Email Me<br>
-    <a href="yahoo:amberlie@rocketmail.com">amberlie@rocketmail.com</a><br>
-  </address>
-        </div>
-        <div class="column-2">
+            Kim Mattiko <br>
+            13210 Solstice Loop <br>
+            Sanford, FL 32771 <br>
+            USA <br>
+          </address>
+            <h4>Follow me on Twitter</h4>
+            <a href="https://twitter.com/SkimMatt">@SkimMatt</a>
+            <h4>Email Me</h4>
+            <a href="yahoo:amberlie@rocketmail.com">amberlie@rocketmail.com</a>
+        </div><!--end my info-->
+
+        <div class="form"> <!--start form-->
           <label for="full_name">Full Name</label>
           <input type="text" name="full_name" placeholder="Sally C. Shores">
           <label for="email">Email Address</label>
@@ -78,9 +77,11 @@
           <input type="text" name="bio">
           <label for="submit" name="submit">
           <button>Submit</button>
-         </div>
-   </div>
-     </div>
+        </div><!--end form-->
 
- </body>
+      </div><!--end contact-->
+  </div> <!--end whole document div-->
+
+</body>
+
 </html>
