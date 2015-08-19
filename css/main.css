@@ -202,9 +202,6 @@ Everything else?
   padding-top: 2em;
 }
 
-#journals ul {
-
-}
 
 #journals li {
   list-style: none;
@@ -216,8 +213,8 @@ Everything else?
 }
 
 #contact {
-  background-color: #C5C9DB;
-  padding-bottom: 15em;
+  background-color: lightyellow;
+  padding-bottom: 25em;
   color: lightgrey;
 }
 
@@ -227,30 +224,66 @@ Everything else?
   font-size: 2.3em;
 }
 
-#myinfo {
-  float: left;
-  width: 45%;
-  display: inline-block;
-  padding-left: 1em;
+#contact {
   text-align: center;
-  text-shadow: 2px 2px 4px #000000;
+  padding-top: 2em;
+  color: darkgrey;
 }
 
-#myinfo::first-line {
-  color: pink;
-  font-size: 2em;
+#contact h2 {
+  font-size: 3em;
+  color: #A0789F;
+  font-family: cursive;
+  font-weight: bold;
 }
+
+#addy {
+  float: left;
+  color: white;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+#addy::first-line {
+  color: pink;
+  font-size: 1.5em;
+}
+
+#social {
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
+
+#social h4 {
+  color: pink;
+  font-size: 2.3em;
+  text-shadow: 1px 1px 2px #000000;
+  font-style: italic;
+}
+
+#social a {
+  text-decoration: none;
+  color: darkblue;
+  padding-top: .1em;
+  font-size: 1.4em;
+}
+
 #contactform {
   float: right;
-  width: 28%;
+  width: 27%;
+  font-size: 1.6em;
   display: inline-block;
-  margin-right: 3em;
-  padding: 1em 1em 1em 1em;
+  text-align: center;
+  padding-right: 4em;
 }
 
 #contactform button {
   background-color: darkgrey;
-  margin-top: .2em;
+  margin-top: 3em;
 }
 
 /* ==========================================================================
