@@ -125,7 +125,7 @@ Everything else?
   padding-bottom: 47em;
 }
 #heading {
-  border: .2em solid tan;
+  border: .2em solid lightyellow;
   background-color: white;
   opacity: 0.7;
   color: #A0789F;
@@ -167,28 +167,34 @@ Everything else?
 }
 
 #aboutme h2 {
-  padding-left: 28%;
+  padding-left: 10%;
   color: darkgrey;
   font-size: 2em;
   padding-bottom: 2em;
   padding-top: 2em;
+  width: 20%;
 }
 
 #aboutme p {
   width: 50%;
   padding-left: 10%;
   font-size: 1.3em;
+  padding-bottom: 2em;
 }
 
 #aboutme img {
   float: right;
   border-radius: 560px;
-  margin-right: 2em;
+  margin-right: 4em;
+  width: 24%;
+  margin-top: 3em;
+  border: 1em solid lightyellow;
 }
 
 #journals {
   display: block;
   background-color: darkgrey;
+  padding-bottom: 3em;
 }
 
 #journals h2 {
